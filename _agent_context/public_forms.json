@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "gluehwein_erlebnis",
+      "app_id": "69fda85323b7007a5763586b",
+      "path": "/rest/apps/69fda85323b7007a5763586b/records",
+      "allowed_fields": [
+        "datum",
+        "ort",
+        "rezeptname",
+        "zutaten",
+        "zubereitung",
+        "weinsorte",
+        "bewertung",
+        "besonderheiten",
+        "notizen",
+        "standort"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Glühwein Erlebnis — Formular"
+    }
+  ]
+}

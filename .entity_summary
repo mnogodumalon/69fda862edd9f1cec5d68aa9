@@ -1,0 +1,1 @@
+- Glühwein Erlebnis (gluehwein_erlebnis): datum[date/datetimeminute], ort[string/text], rezeptname[string/text], zutaten[string/textarea], zubereitung[string/textarea], weinsorte[lookup/radio], bewertung[lookup/radio], besonderheiten[multiplelookup/checkbox], notizen[string/textarea], foto[file], standort[geo]
