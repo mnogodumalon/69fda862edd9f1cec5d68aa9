@@ -6,7 +6,6 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { ErrorBusProvider } from '@/components/ErrorBus';
 import { Layout } from '@/components/Layout';
 import DashboardOverview from '@/pages/DashboardOverview';
-import { WorkflowPlaceholders } from '@/components/WorkflowPlaceholders';
 import AdminPage from '@/pages/AdminPage';
 import GluehweinErlebnisPage from '@/pages/GluehweinErlebnisPage';
 import PublicFormGluehweinErlebnis from '@/pages/public/PublicForm_GluehweinErlebnis';
@@ -26,7 +25,7 @@ export default function App() {
               {/* <public:routes> */}
               {/* </public:routes> */}
               <Route element={<Layout />}>
-                <Route index element={<><div className="mb-8"><WorkflowPlaceholders /></div><DashboardOverview /></>} />
+                <Route index element={<DashboardOverview />} />
                 <Route path="gluehwein-erlebnis" element={<GluehweinErlebnisPage />} />
                 <Route path="admin" element={<AdminPage />} />
                 {/* <custom:routes> */}
